@@ -1,0 +1,111 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor0: #F2A516;
+    --cor1: #F28e13;
+    --cor2: #BF4904;
+    --cor3: #730202;
+    --cor4: #400101;
+    --fonte-titulo: "Great Vibes", cursive;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-color: var(--cor2);
+    padding: 20px 0px 10px 0px;
+    min-height: 120px;
+}
+
+header h1 {
+    color: var(--cor0);
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    padding: 10px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 0px 0px 0px 10px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 0px 15px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 8px; 
+}
+nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+strong {
+    color: var(--cor4); 
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 280px;
+    max-width: 720px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37)
+    ;
+}
+
+main h1 {
+    color: var(--cor3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+main h2 {
+    color: var(--cor2);
+    padding: 10px;
+}
+div {
+    background-color: var(--cor1);
+}
+
+div > img {
+    padding: 10px 13px;
+    margin: auto;
+   
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+}
+
+main article > p {
+    padding: 5px 8px;
+}
