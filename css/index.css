@@ -89,15 +89,6 @@ main h2 {
     color: var(--cor2);
     padding: 10px;
 }
-div {
-    background-color: var(--cor1);
-}
-
-div > img {
-    padding: 10px 13px;
-    margin: auto;
-   
-}
 
 main p {
     font-family: Arial, Helvetica, sans-serif;
